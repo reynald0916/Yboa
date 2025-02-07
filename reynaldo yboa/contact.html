@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YBOA contact</title>
+   <form action="/reynaldo/process form.php" method="post">
+   </form>
+    <style>
+        body {
+          font-family: Arial, sans-serif;
+          margin: 0;
+          padding: 0;
+          justify-content: center;
+          align-items: center;
+          background-image: url(./img/ICT1.jpeg);
+        }
+        
+        .contact {
+          max-width: 400px;
+          margin: 40px auto;
+          padding: 20px;
+          background-color: #fff;
+          border: 1px solid #ddd;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+          border: 5px solid black;
+        }
+        
+        #contact {
+          text-align: center;
+        }
+        
+        h2 {
+          margin-bottom: 20px;
+        }
+        
+        form {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+        
+        input, textarea {
+          width: 100%;
+          padding: 10px;
+          margin-bottom: 20px;
+          border: 1px solid #ccc;
+        }
+        
+        button {
+          padding: 10px 20px;
+          background-color: #337ab7;
+          color: #fff;
+          border: none;
+          cursor: pointer;
+        }
+        
+        button:hover {
+          background-color: #23527c;
+        }
+        
+        @media (max-width: 768px) {
+          .contact {
+            margin: 20px auto;
+          }
+        }
+        
+        @media (max-width: 480px) {
+          .contact {
+            margin: 10px auto;
+          }
+          input, textarea {
+            padding: 5px;
+          }
+        }
+        
+        button {
+          transition: background-color 0.2s ease-in-out;
+        }
+        
+        button:hover {
+          transform: scale(1.1);
+        }
+
+      nav ul,a{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+        color: rgb(37, 148, 148);
+        box-shadow: 0px 0px 20px rgb(0, 238, 255);
+        
+      }
+
+      header{
+       background-color: none;
+       color: #ffffff;
+       padding: 1em;
+       text-align: center;
+       margin-top: 20px;
+       width: 50px;
+      }
+
+    nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    }
+    
+    nav li {
+    margin-right: 20px;
+    }
+    
+    nav a {
+    color: aqua;
+    text-decoration: none;
+    box-shadow: 0px 0px 20px zrgb(96, 159, 163);
+    }
+        
+     </style>
+        
+</head>
+<body>
+
+  <header>
+    <nav>
+    <ul>
+    <li><a href="./index.html">Home</a></li>
+    <li><a href="./about us.html">About</a></li>
+    <li><a href="./contact.html">Contact</a></li>
+    <li><a href="./portfolio.html ">Portfolio</a></li>
+    <li><a href="./blog.html">Blog</a></li>
+    </ul>
+    </nav>
+    </header>
+
+<div class="contact">
+ <section id="contact">
+            <h2>Contact Us</h2>
+            <form>
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                <textarea placeholder="Message"></textarea>
+                <button>Send</button>
+            </form>
+        </section>
+</div>
+</body>
+</html>
